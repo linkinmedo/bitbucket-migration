@@ -1,0 +1,18 @@
+{
+  "name": "migration-tool",
+  "version": "1.0.0",
+  "description": "Private bitbucket repos to github migration tool",
+  "main": "index.js",
+  "author": "Mohammad Shammout",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^18.5.6",
+    "bitbucket": "^2.6.1",
+    "chalk": "^4.1.1",
+    "clui": "^0.3.6",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  }
+}
