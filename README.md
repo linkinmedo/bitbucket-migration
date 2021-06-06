@@ -33,6 +33,7 @@ All the following configurations are required:
 - GH_ORG - the github organization name you want to migrate the repos to
 - GH_TEAM - the name of the team inside the organization which should have access to the repos
 - GH_PROTOCOL - the protocol you use to access github on your machine (`https` or `ssh`)
+- GH_SUFFIX - the suffix that will be added at the end of the repo name after migration 
 
 ## Migrating the repos
 

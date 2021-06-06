@@ -22,7 +22,7 @@ const failureList = [];
 const createRepo = async (repo, team, cloneUrl) => {
   const githubRepo = await octokit.rest.repos.createInOrg({
     org: process.env.GH_ORG,
-    name: repo.name,
+    name: `${repo.name}-${process.env.GH_SUFFIX}`,
     private: true,
     team_id: team.data.id,
   });
